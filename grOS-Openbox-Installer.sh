@@ -17,7 +17,7 @@ fi
 #
 
 # install supported apps
-apt-get install rxvt-unicode-256color thunar ttf-droid tint2 openbox obconf obmenu lxappearance nitrogen gmrun gsimplecal volumeicon-alsa -y
+apt-get install rxvt-unicode-256color thunar fonts-droid tint2 openbox obconf obmenu lxappearance nitrogen gmrun gsimplecal volumeicon-alsa -y
 
 # install compton
 add-apt-repository ppa:richardgv/compton -y

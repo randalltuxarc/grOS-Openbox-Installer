@@ -1,4 +1,4 @@
-#!bin/bash
+!#bin/bash
 # grOS-Openbox-Installer
 # Openbox Installer Script for GrombyangOS (grOS)
 # Coded by: randalltux < rndtx@gros-team.org > // January, 10 2014 at 03:25

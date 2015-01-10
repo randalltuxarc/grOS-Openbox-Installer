@@ -1,0 +1,41 @@
+urxvt*background:       #2d2d2d
+urxvt*foreground:       #dedede
+
+!black  0=htop colors dedede
+ *color0:  #2d2d2d
+ *color8: #dedede
+!red
+ *color1:  #dedede
+ *color9:  #dedede
+!green
+ *color2:  #d64937
+ *color10: #dedede
+!yellow
+ *color3:  #dedede
+ *color11: #dedede
+!blue   ranger folders
+ *color4:  #d64937
+ *color12: #d64937
+!magenta
+ *color5:  #dedede
+ *color13: #dedede
+!cyan
+ *color6:  #dedede
+ *color14: #dedede
+!white
+ *color7:  #dedede
+ *color15: #dedede
+
+Xft.autohint: true
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+!Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+URxvt*font:                 xft:Droid Sans Mono:regular:size=10:antialias=true:hinting=true
+URxvt*imFont:               xft:Droid Sans Mono:regular:size=10:antialias=true:hinting=true
+URxvt*boldFont:             xft:Droid Sans Mono:bold:size=10:antialias=true:hinting=true
+URxvt*italicFont:           xft:Droid Sans Mono:italic:size=10:antialias=true:hinting=true
+URxvt*boldItalicFont:       xft:Droid Sans Mono:bold:italic:size=10:antialias=true:hinting=true

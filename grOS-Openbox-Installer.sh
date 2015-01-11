@@ -30,12 +30,12 @@ mv ~/.config/openbox ~/.config/openbox.bak && cp -r openbox ~/.config
 cp -r tint2 ~/.config
 
 # Copy .Xdefaults to /home/$USER
-cp .Xdefaults $HOME
+cp .Xdefaults /home/$USER
 
 # Copy .gtkrc-2.0 to /home/$USER
-mv ~/.gtkrc-2.0 ~/.gtkrc-2.0.bak && cp .gtkrc-2.0 $HOME
+mv ~/.gtkrc-2.0 ~/.gtkrc-2.0.bak && cp .gtkrc-2.0 /home/$USER
 
 # Copy compton.conf to /home/$USER
-cp .compton.conf $HOME
+cp .compton.conf /home/$USER
 
 # Copy openbox files from github

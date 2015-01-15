@@ -3,7 +3,7 @@
 	<menu id="root-menu" label="openbox3">
 		<item label="Terminal">
 			<action name="Execute">
-				<execute>urxvtc</execute>
+				<execute>urxvt</execute>
 			</action>
 		</item>
 		<item label="Editor">
@@ -335,23 +335,23 @@
 			</item>
 			<item label="Configure Autostarted Applications">
 				<action name="Execute">
-					<execute>xterm -e nano /home/derp/.config/openbox/autostart.sh</execute>
+					<execute>xterm -e nano ~/.config/openbox/autostart.sh</execute>
 				</action>
 			</item>
 			<item label="Edit rc.xml">
 				<action name="Execute">
-					<execute>xterm -e nano /home/derp/.config/openbox/rc.xml</execute>
+					<execute>xterm -e nano ~/.config/openbox/rc.xml</execute>
 				</action>
 			</item>
 			<separator label="obmenugen settings"/>
 			<item label="Edit obmenugen configuration">
 				<action name="Execute">
-					<execute>xterm -e nano /home/derp/.config/obmenugen/obmenugen.cfg</execute>
+					<execute>xterm -e nano ~/.config/obmenugen/obmenugen.cfg</execute>
 				</action>
 			</item>
 			<item label="Edit obmenugen exclutions">
 				<action name="Execute">
-					<execute>xterm -e nano /home/derp/.config/obmenugen/exclusions</execute>
+					<execute>xterm -e nano ~/.config/obmenugen/exclusions</execute>
 				</action>
 			</item>
 		</menu>

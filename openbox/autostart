@@ -4,6 +4,7 @@
 ## run tint2 panel and notification area
 tint2 &
 volumeicon &
+xfce-power-manager &
 
 ## Set wallpaper
 nitrogen --restore &
